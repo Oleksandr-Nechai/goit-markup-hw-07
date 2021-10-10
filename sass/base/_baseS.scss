@@ -1,0 +1,35 @@
+body {
+  background-color: $primary-color;
+  color: $first-text-color;
+
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-caption {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.command,
+.filter {
+  background-color: $third-color;
+}
+
+.ul-margin-li:not(:last-child) {
+  margin-right: 10px;
+}
